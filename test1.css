@@ -1,0 +1,126 @@
+body{
+font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  color:#000;
+  font-family: 'Roboto', sans-serif;
+}
+.bg--head{
+  background:#fff;
+}
+.btn--template{
+background:#fff;
+padding: 2px 7px;
+}
+.btn--template:hover{
+  background:#efeeec;
+  color:#000;
+}
+.btn--template:focus,
+.btn--template:active{
+    background:#fff!important;
+}
+.btn--text{
+  font-size: 14px;
+  font-weight: bold;
+}
+.mr__template{
+  margin:0 11%;
+}
+.btn__border{
+  border-left: 1px solid #000;
+}
+.border--search{
+  border-radius: 20px;
+}
+.search--background{
+  background: url(img/Icon-Search.png)no-repeat;
+  background-position: 5% 50%;
+}
+.form--paddingLeft{
+  padding-left:30px;
+}
+.border-black-20{
+  border:1px solid rgba(0,0,0,0.2);
+}
+.img-nead{
+  height: 20px;
+  width: auto;
+}
+.border-bottom{
+  border-bottom: :1px solnd #cccccc;
+}
+.border-top{
+border-top:1px solnd #cccccc;
+}
+.bg--container{
+  background: linear-gradient(to bottom, #f4f4f4,#fff);
+}
+.viewport-50{
+  min-height: 460px;
+}
+.border--text{
+  border-bottom: 1px dashed #000;
+}
+.border--text2{
+  border-bottom: 1px dashed #000;
+  display: inline-block;
+padding-bottom: 1px;
+}
+.img__background{
+  background:url(img/Curves-1.jpg) 0% 0%/cover;
+  background-position: 50%;
+  min-width: : 100%;
+}
+.width--picture{
+  width: 250PX;
+}
+.card--modifications{
+  border: none;
+}
+.footer__background{
+background:#f2f2f2;
+}
+.line--hei{
+  line-height: 16px;
+}
+.font-sizeForm{
+  font-size: 13px;
+}
+@media screen and (max-width: 960px){
+  .mr__foot{
+  margin:0 15px;
+  }
+}
+@media screen and (max-width: 768px){
+  .width--picture{
+    width: 200PX;
+  }
+}
+@media screen and (max-width: 620px){
+.golum--section{
+  display:flex;
+  flex-direction:column;
+}
+.width--picture{
+  width: 150PX;
+}
+  h5{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px){
+  .mr__template{
+    margin:0 15px!important;
+  }
+  .btn--template{
+  font-size: 13px;
+    width: auto;
+  }
+}
