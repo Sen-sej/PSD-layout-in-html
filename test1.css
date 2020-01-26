@@ -33,6 +33,12 @@ padding: 2px 7px;
 .mr__template{
   margin:0 11%;
 }
+.mr__left{
+  margin-left: 11%;
+}
+.mr__right{
+  margin-right: 11%;
+}
 .btn__border{
   border-left: 1px solid #000;
 }
@@ -118,6 +124,12 @@ background:#f2f2f2;
 @media screen and (max-width: 400px){
   .mr__template{
     margin:0 15px!important;
+  }
+  .mr__left{
+margin:0 15px
+  }
+  .mr__right{
+    margin:0 15px
   }
   .btn--template{
   font-size: 13px;
